@@ -3,6 +3,9 @@ import logo from './logo.svg';
 import './App.css';
 import  Nav from './components/Nav'
 import Button from './components/Button'
+import Grid from './components/Grid'
+import Modal from './components/Modal'
+import List from './components/List'
 
 function App() {
   return (
@@ -10,6 +13,9 @@ function App() {
      
       <Nav/>
       <Button/>
+      <Grid/>
+      <Modal/>
+      <List/>
     </div>
   );
 }
