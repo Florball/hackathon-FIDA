@@ -8,10 +8,10 @@ const List = () => {
       </div>
       <div className=" col-3">
         <p>Papa amarilla</p>
-        <button type="button" className="btn btn-outline-secondary">Eliminar</button>
+        <button type="button" className="btn btn-outline-secondary"><i class="far fa-trash-alt mr-3"></i>Eliminar</button>
       </div>
       <div className="col-4">
-        <img src="" className="card-img-left" alt="Producto" />
+        unidades
       </div>
     </div>
   );

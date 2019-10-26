@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { BrowserRouter as Router,Route, Link} from 'react-router-dom';
 import HomeComponent from './pages/HomeComponent';
 import Login from './pages/Login';
-import './styles/style.css'
+import './styles/style.css';
 
 class App extends Component {
   render() {
@@ -26,5 +26,5 @@ class App extends Component {
       </Router>
     );
   }
-
+}
 export default App;
